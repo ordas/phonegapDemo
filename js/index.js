@@ -27,7 +27,19 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+		
+		
+		var $btn = $('#btn');
+		$btn.on("click", {}, $.proxy(this.clickBtn, this));  
     },
+	
+		
+	clickBtn:function(ev)
+	{
+		console.log("click!");
+		ev.preventDefault();
+	},
+	
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
@@ -47,3 +59,6 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+
+
