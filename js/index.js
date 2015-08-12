@@ -28,7 +28,7 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
 		
-		
+		alert("bindEvents!");
 		var $btn = $('#btn');
 		$btn.on("click", {}, $.proxy(this.clickBtn, this));  
     },
@@ -36,7 +36,7 @@ var app = {
 		
 	clickBtn:function(ev)
 	{
-		console.log("click!");
+		alert("click!");
 		paypalApp.pay(3);
 		ev.preventDefault();
 	},
