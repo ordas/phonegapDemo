@@ -120,8 +120,8 @@
 	
 	
 	<!-- Pappal-->
-	<!--<gap:plugin name="com.paypal.cordova.mobilesdk" version="3.1.2" />-->
-	<gap:plugin name="com.paypal.cordova.mobilesdk" source="plugins.cordova.io" />
+	<gap:plugin name="com.paypal.cordova.mobilesdk" version="3.1.2" />
+	<!--<gap:plugin name="com.paypal.cordova.mobilesdk" source="plugins.cordova.io" />-->
 
     <access origin="*"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->

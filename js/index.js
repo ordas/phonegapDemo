@@ -34,8 +34,7 @@ var app = {
 	
 		
 	clickBtn:function(ev)
-	{
-		alert("click:" + paypalApp);
+	{	
 		paypalApp.pay(3);
 		ev.preventDefault();
 	},
