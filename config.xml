@@ -11,8 +11,9 @@
     <description>App de test realizada por [Q]interactiva</description>
 
     <author href="http://www.q-interactiva.com" email="info@q-interactiva.com">
-        Qinteractiva
+        Qinteractiva		
     </author>
+	
 	
 	<gap:platform name="ios" />
     <gap:platform name="android" />
